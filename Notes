@@ -19,6 +19,15 @@
 #Step 4: Config vitest
 - Create new file "vite.config.ts"
 
+#Step 5: Create entities and your tests
+
+#Conceito - Regras de negocios na aplicação: 
+##Geralmente as regras de negócio poderão ficar em dois lugares da nossa aplicação
+- Dentro da entidade:
+ Como no exemplo que temos aqui, que a data fim nunca poderá ser maior que data inicio
+- Dentro das funcionalidades(use-cases || services)
+ 
+
 
 
 
