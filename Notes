@@ -1,0 +1,24 @@
+#Step 1: Install e inserting of configuration eslint
+- cmd: npx eslint --init
+  - Configs selecteds: 
+  √ How would you like to use ESLint? · style       
+  √ What type of modules does your project use? · esm
+  √ Which framework does your project use? · none
+  √ Does your project use TypeScript? · No / Yes
+  √ Where does your code run? · browser
+  √ How would you like to define a style for your project? · guide
+  √ Which style guide do you want to follow? · standard-with-typescript
+  √ What format do you want your config file to be in? · JSON
+
+
+#Step 2: Create a new entitie 'appointment' in entities and your test
+
+#Step 3: Install vitest in dependencies of development, to make tests
+- cmd: yarn add -D vitest
+
+#Step 4: Config vitest
+- Create new file "vite.config.ts"
+
+
+
+
