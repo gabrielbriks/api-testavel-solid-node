@@ -1,0 +1,9 @@
+Muitos podem chamar essa pasta como
+- services
+- use-cases
+
+Mas ela simplesmente representa as nossas funcionalidades
+
+
+# Todo caso de uso, vai ter apenas uma responsabilidade!
+- Todo caso de uso, possuí uma entrada e uma saída. Que no caso é a "Request" e a "Response".
