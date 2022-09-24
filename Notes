@@ -1,3 +1,17 @@
+# Tipos de testes
+
+- Existem vários tipos de testes dentro de uma aplicação dentre eles temos:
+  - Unitários = Testam um componente/funcionalidade de forma isolada
+    - Os testes unitários geralmente não batem no banco de dados. Não faz sentido.
+  - Integração = Testa como um ou mais componentes/funcionalidades se comportam juntos(as)
+    - Os testes de integração, não é toda vez que ele bate no banco.
+  - E2E = Simula o que um usuário vai fazer na nossa aplicação diariamente.
+    - Já os testes E2E(ponta a ponta), batem no banco de dados e "incluí qualquer conexão externa, 
+    inclusive APIs".
+
+- Nessa aplicação será utilizados os testes unitários.
+
+
 #Step 1: Install e inserting of configuration eslint
 - cmd: npx eslint --init
   - Configs selecteds: 
